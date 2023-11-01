@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            @foreach ($products as $product)
+            @foreach ($products->take(4) as $product)
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
                 <div class="features-item text-center mb-30">
                     <div class="features-thumb">
@@ -217,7 +217,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            @foreach ($blogs as $blog)
+            @foreach ($blogs->take(3) as $blog)
             <div class="col-lg-4 col-md-6">
                 <div class="blog-post-item mb-30">
                     <div class="blog-post-thumb position-relative">

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $setting->first()->title }}</title>
 
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="{{ asset('uploads/setting') }}/{{ $setting->first()->favicon }}">
     <link rel="stylesheet" href="{{ asset('backend') }}/assets/vendor/css/all.min.css">
     <link rel="stylesheet" href="{{ asset('backend') }}/assets/vendor/css/OverlayScrollbars.min.css">
     <link rel="stylesheet" href="{{ asset('backend') }}/assets/vendor/css/bootstrap.min.css">
@@ -73,7 +73,7 @@
 
         <!-- footer start -->
         <div class="footer">
-            <p>Copyright© <script>document.write(new Date().getFullYear())</script> All Rights Reserved By <span class="text-primary">Revel</span></p>
+            <p>{{ $setting->first()->footer }} Design & Development by<a href="https://nugortech.com/" class="text-primary">Nugortechit</a></p>
         </div>
         <!-- footer end -->
     </div>

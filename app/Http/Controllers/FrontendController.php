@@ -128,7 +128,7 @@ class FrontendController extends Controller
         ]);
     }
     
-    //our_team
+    //our_privacy_policy
     function our_privacy_policy(){
         $privacyPolicy = privacyPolicy::all();
         return view('frontend.privacyPolicy', [
