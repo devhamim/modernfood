@@ -38,7 +38,7 @@
                         <h6 class="sub-title">{{ $abouts->first()->subtitle }}</h6>
                         <h2 class="title">{{ $abouts->first()->title }}</h2>
                     </div>
-                    <div id="accordion">
+                    <div id="">
                         <div class="accordion-content">
                             <p>{!! $abouts->first()->description !!}</p>
                         </div>

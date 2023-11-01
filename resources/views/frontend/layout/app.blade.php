@@ -10,9 +10,9 @@
         @endif
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    @if ($setting->first()->favicon != null)
-        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/setting') }}/{{ $setting->first()->favicon }}">
-    @endif
+        @if ($setting->first()->favicon != null)
+            <link rel="shortcut icon" type="image/x-icon" href="{{ asset('uploads/setting') }}/{{ $setting->first()->favicon }}">
+        @endif
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
