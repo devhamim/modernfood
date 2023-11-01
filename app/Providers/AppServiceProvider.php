@@ -48,6 +48,10 @@ class AppServiceProvider extends ServiceProvider
          View::composer('backend.layouts.app', function ($view){
             $view->with('setting', setting::all());
         });
+        // setting
+         View::composer('auth.login', function ($view){
+            $view->with('setting', setting::all());
+        });
         // users
         View::composer('backend.layouts.header', function ($view){
             $view->with('users', User::where('id', Auth::user()->id));

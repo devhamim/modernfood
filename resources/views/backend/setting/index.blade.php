@@ -44,7 +44,7 @@
                                             <div class="col-sm-6">
                                                 <label for="" class="form-label">Website Name</label>
                                                 <div class="input-group">
-                                                    <span class="input-group-text"><i class="fa-light fa-user"></i></span>
+                                                    <span class="input-group-text"><i class="fa-light fa-globe"></i></span>
                                                     <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" placeholder="Website Name" value="{{ $settings->first()->name }}">
                                                 </div>
                                             </div>
@@ -78,21 +78,21 @@
                                     <div class="col-md-3 col-sm-6">
                                         <label for="" class="form-label">Logo</label>
                                         <div class="input-group">
-                                            <span class="input-group-text"><i class="fa-light fa-user"></i></span>
+                                            <span class="input-group-text"><i class="fa-solid fa-file-image"></i></span>
                                             <input type="file" class="form-control" name="logo" placeholder="Logo" value="{{ $settings->first()->logo }}">
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-sm-6">
                                         <label for="" class="form-label">Footer Logo</label>
                                         <div class="input-group">
-                                            <span class="input-group-text"><i class="fa-light fa-user"></i></span>
+                                            <span class="input-group-text"><i class="fa-solid fa-file-image"></i></i></span>
                                             <input type="file" class="form-control" name="footer_logo" placeholder="Footer Logo" value="{{ $settings->first()->logo }}">
                                         </div>
                                     </div>
                                     <div class="col-md-3 col-sm-6">
                                         <label for="" class="form-label">Favicon</label>
                                         <div class="input-group">
-                                            <span class="input-group-text"><i class="fa-light fa-user"></i></span>
+                                            <span class="input-group-text"><i class="fa-solid fa-file-image"></i></span>
                                             <input type="file" class="form-control" name="favicon" placeholder="Favicon" value="{{ $settings->first()->favicon }}">
                                         </div>
                                     </div>
@@ -100,21 +100,21 @@
                                     <div class="col-md-4 col-sm-6">
                                         <label for="" class="form-label">Address</label>
                                         <div class="input-group">
-                                            <span class="input-group-text"><i class="fa-light fa-envelope"></i></span>
+                                            <span class="input-group-text"><i class="fa-solid fa-location-dot"></i></span>
                                             <input type="text" class="form-control @error('address') is-invalid @enderror" name="address" placeholder="Address" value="{{ $settings->first()->address }}">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                         <label for="" class="form-label">Footer</label>
                                         <div class="input-group">
-                                            <span class="input-group-text"><i class="fa-light fa-phone"></i></span>
+                                            <span class="input-group-text"><i class="fa-regular fa-closed-captioning"></i></span>
                                             <input type="text" class="form-control @error('footer') is-invalid @enderror" name="footer" placeholder="Footer" value="{{ $settings->first()->footer }}">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                         <label for="" class="form-label">Title</label>
                                         <div class="input-group">
-                                            <span class="input-group-text"><i class="fa-light fa-globe"></i></span>
+                                            <span class="input-group-text"><i class="fa-solid fa-heading"></i></span>
                                             <input type="text" class="form-control @error('title') is-invalid @enderror" name="title" placeholder="Title" value="{{ $settings->first()->title }}">
                                         </div>
                                     </div>
@@ -128,21 +128,21 @@
                                     <div class="col-md-4 col-sm-6">
                                         <label for="" class="form-label">Meta Title</label>
                                         <div class="input-group">
-                                            <span class="input-group-text"><i class="fa-light fa-globe"></i></span>
+                                            <span class="input-group-text"><i class="fa-brands fa-meta"></i></span>
                                             <input type="text" class="form-control" name="meta_title" placeholder="Meta Title" value="{{ $settings->first()->meta_title }}">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                         <label for="" class="form-label">Meta Tag</label>
                                         <div class="input-group">
-                                            <span class="input-group-text"><i class="fa-light fa-globe"></i></span>
+                                            <span class="input-group-text"><i class="fa-brands fa-meta"></i></span>
                                             <input type="text" class="form-control" name="meta_tag" placeholder="Meta Tag" value="{{ $settings->first()->meta_tag }}">
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-6">
                                         <label for="" class="form-label">Meta Description</label>
                                         <div class="input-group">
-                                            <span class="input-group-text"><i class="fa-light fa-globe"></i></span>
+                                            <span class="input-group-text"><i class="fa-brands fa-meta"></i></span>
                                             <input type="text" class="form-control" name="meta_description" placeholder="Meta Description" value="{{ $settings->first()->meta_description }}">
                                         </div>
                                     </div>
