@@ -24,7 +24,6 @@
         </div>
         @endforeach
     </div>
-    {{-- <div class="slider-bottom-bg" data-background="{{ asset('frontend') }}/img/slider/slider_bottom.png"></div> --}}
 </section>
 <!-- slider-area-end -->
 
@@ -134,7 +133,6 @@
             <div class="col-xl-3">
                 <div class="project-item mb-30">
                     <div class="project-thumb">
-                        {{-- <img src="{{ asset('uploads/gallery') }}/{{ $gallery->image }}"> --}}
                         <a class="my-image-links" data-gall="gallery01" href="{{ asset('uploads/gallery') }}/{{ $gallery->image }}"><img src="{{ asset('uploads/gallery') }}/{{ $gallery->image }}"></a>
                     </div>
                     <div class="project-overlay-content">
